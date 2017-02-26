@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<div align="center">
+	<font size="5" color="white">
+		<p1 style="font-family:Georgia;">Food Connects!</p1>
+	</font>
+</div>
+<title>Text Input Control</title>
+</head>
+<body>
+	<style>
+		body {
+			background-color: #78D1C0;
+		}
+	</style>
+
+	<font size="3" color="white">
+	<p1 style="font-family:verdana;"></p1>
+	<div align="center">
+		<p>Hi there! Please Enter your username and password:
+			<form action="/views/" method="POST">{% csrf_token %}
+				Username:  <input type="text" name="username" />
+				<br>
+				Password:  <input type="password" name="password" />
+				<p><button type="submit">Continue</button></p>
+			</form>
+		</p>
+	</div>
+	<font size="2" color="white">
+	<div align="center">
+		<p>
+			<img  src="http://static1.squarespace.com/static/52561f89e4b08c7e98de6ecf/t/52572274e4b018d2733297c3/1485828312851/?format=1000w" alt="Rainbow food" style="width:500px;height:400px;">
+		</p>
+	</div>
+	<p>
+		<div align="center">If you are willing to sponsor please contact us at 555-5555.</div>
+	</p>
+</body>
+</html>

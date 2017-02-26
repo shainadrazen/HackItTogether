@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<font size="3" color="white"></font>
+<div align="center">
+<style>
+body {
+background-color: #78D1C0;
+}
+
+</style>
+
+<h1>Let's Get Going!!</h1>
+</div>
+<p1 style="font-family:verdana;"></p1>
+<div align="center">
+	<form action="/food/" method="POST">{% csrf_token %}{{context.user}}
+		Your current location: <input type="text" name= "address"   />
+		<p><button type="submit">Continue</button></p>
+	</form>
+	<img HEIGHT = "150" WIDTH = "500" src = https://img.clipartfox.com/f536ad9946e323c166628fc131dbf0d8_clip-art-of-car-clipart-image-car-clipart-for-walls_2000-588.png >
+</div>
+</body>
+</html>
